@@ -1,0 +1,61 @@
+#!/usr/bin/perl
+
+use App::Google::Docs;
+
+use warnings;
+use strict;
+
+=head1 NAME
+
+gdocs - Bring Google Documents to the command line
+
+=head1 VERSION
+
+version 0.09
+
+=head1 SYNOPSIS
+
+ gdocs [OPTIONS] COMMAND [ARGS]
+
+ # for help
+ gdocs commands
+ gdocs help COMMAND
+
+=cut
+
+App::Google::Docs -> run;
+
+=head1 CONFIGURATION
+
+The following environment variables will affect gdocs behaviour:
+
+=over
+
+=item B<GOOGLE_EMAIL>
+
+Specifies the login email. If blank uses EMAIL.
+
+=item B<GOOGLE_PASSWORD>
+
+Specifies the login password.
+
+=back
+
+=head1 AUTHOR
+
+Alessandro Ghedini <alexbio@cpan.org>
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2011 Alessandro Ghedini.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
+
+=cut
+
+1; # End of gdocs

@@ -1,0 +1,29 @@
+==================================================
+Changes from 2011-07-08 00:00:00 +0000 to present.
+==================================================
+
+-----------------------------------------
+version 0.09 at 2012-07-07 12:13:38 +0000
+-----------------------------------------
+
+  Change: f0365d13e7a90c6ba5d66f817de0884b37f152a5
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2012-07-07 14:13:14 +0000
+
+    dist.ini: don't run podcoverage tests 
+
+  Change: 9d3c720b7f2ad6f48fc67b96d10a98de6decab91
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2012-07-07 14:11:06 +0000
+
+    dist.ini: use Git::NextVersion plugin 
+
+  Change: 5ed5bf9b3a8b01719a706f46ab6640840f5efefd
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2012-07-07 14:08:11 +0000
+
+    dist.ini: update repo name 
+
+================================================
+Plus 8 releases after 2011-07-08 00:00:00 +0000.
+================================================
